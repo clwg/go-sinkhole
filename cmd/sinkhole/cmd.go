@@ -76,6 +76,7 @@ func parseFlags() AppConfig {
 
 	config.LoggerConfig = jsonlogger.LoggerConfig{
 		FilenamePrefix: *filenamePrefix,
+		LogFormat:      jsonlogger.FormatJSON,
 		LogDir:         *logDir,
 		MaxLines:       *maxLines,
 		RotationTime:   time.Duration(*rotationTime) * time.Minute,
