@@ -5,5 +5,5 @@ This is a Golang-based sinkhole server designed to intercept and log unwanted or
 ## Usage
 
 ```bash
-go run cmd.go -filenamePrefix <prefix> -logDir <directory> -maxLines <lines> -rotationTime <minutes> -protocol <protocol> -ports <ports>
+go run cmd.go -filenamePrefix <prefix> -logDir <directory> -maxLines <log max lines> -rotationTime <log rotation minutes> -protocol <protocol> -ports <ports>
 ```
